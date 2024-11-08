@@ -77,12 +77,16 @@
 
         // Step 1: Create Function to Change Title and rewrite h1 element to "Celebrate Michigan Football!"
         //function
-
+        function changeTitle() {
+            document.querySelector("h1").innerHTML = "Celebrate Michigan Football!";
+            
+        
             //Step 2: log the message to the console
-
-
+            console.log("Title has been changed!");
+        }
         //Step 3: style the background to color #003366
-
+        document.body.style.backgroundColor = "#003366";
+        
         // Step 4: Add the correct ID for the button, create an element 'p' and add a message "2023 Champions!" to p
         document.getElementById("add ID here").addEventListener("click", function() {
 
